@@ -37,7 +37,7 @@ dearpygui >= 1.2
 
 paramiko
 
-Unfortunately the in-Node visualisation capabilities and a good few Nodes (Visualiser, Cameras, OpenCV filters) repy on opencv = 4.x (3.x should work but not tested). Sorry about that! In the future there will be an effort to remove basic dependency on opencv but for now, it is what it is.
+Unfortunately the in-Node visualisation capabilities and a good few Nodes (Visualiser, Cameras, OpenCV filters) rely on opencv = 4.x (3.x should work but not tested). Sorry about that! In the future there will be an effort to remove basic dependency on opencv but for now, it is what it is.
 At the time of writting (Feb. 2022) conda will not install opencv for python > 3.8, so if you are using python 3.9 or newer you have to install opencv through pip.
 
 If you use conda then dearpygui has to also be installed by pip (no conda packages yet). 
